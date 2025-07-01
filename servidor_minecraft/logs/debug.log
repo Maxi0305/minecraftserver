@@ -484,3 +484,39 @@ io.netty.channel.unix.Errors$NativeIoException: syscall:write(..) failed: Broken
 [20:41:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX left the game
 [20:41:20] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [20:42:05] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:42:50] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:43:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod minecraft
+[20:43:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod minecraft
+[20:43:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft took 0.000s
+[20:43:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod mcp
+[20:43:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod mcp
+[20:43:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[20:43:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod FML
+[20:43:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod FML
+[20:43:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[20:43:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod forge
+[20:43:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod forge
+[20:43:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[20:43:18] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopping took 0.001s
+[20:43:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:43:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[20:43:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[20:43:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[20:43:18] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:43:18] [Server thread/INFO] [FML]: Unloading dimension 0
+[20:43:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod minecraft
+[20:43:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod minecraft
+[20:43:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.000s
+[20:43:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mcp
+[20:43:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mcp
+[20:43:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[20:43:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[20:43:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[20:43:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[20:43:18] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod forge
+[20:43:18] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod forge
+[20:43:18] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[20:43:18] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.001s
+[20:43:18] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:43:18] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[20:43:18] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
