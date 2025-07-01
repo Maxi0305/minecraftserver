@@ -1,137 +1,1445 @@
-[20:59:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[20:59:48] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[20:59:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[20:59:48] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[20:59:48] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_452, running on Linux:amd64:6.8.0-1027-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[20:59:48] [main/INFO] [FML]: Searching /workspaces/minecraftserver/servidor_minecraft/./mods for mods
-[20:59:48] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from !mixinbooter-10.6.jar
-[20:59:48] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from [1.12.2] SecurityCraft v1.10.jar
-[20:59:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:59:48] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[20:59:48] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraftserver/servidor_minecraft/./mods/!mixinbooter-10.6.jar Service=LaunchWrapper Env=SERVER
-[20:59:48] [main/WARN] [FML]: The coremod zone.rong.mixinbooter.MixinBooterPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[20:59:48] [main/WARN] [FML]: The coremod MixinBooter (zone.rong.mixinbooter.MixinBooterPlugin) is not signed!
-[20:59:48] [main/INFO] [MixinBooter]: Initializing Mixins...
-[20:59:48] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[20:59:48] [main/INFO] [MixinBooter]: Initializing MixinExtras...
-[20:59:48] [main/INFO] [MixinBooter]: Gathering present mods...
-[20:59:49] [main/INFO] [MixinBooter]: Finished gathering 2 coremods...
-[20:59:49] [main/WARN] [FML]: The coremod SecurityCraftLoadingPlugin (net.geforcemods.securitycraft.SecurityCraftLoadingPlugin) is not signed!
-[20:59:49] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
-[20:59:49] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[20:59:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:59:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:59:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:59:50] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[20:59:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:59:50] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[20:59:50] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@27c04377
-[20:59:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[20:59:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[20:59:50] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[20:59:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[20:59:50] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[20:59:50] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-rc.1).
-[20:59:50] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[20:59:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[20:59:53] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[20:59:53] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[20:59:53] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[20:59:54] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[20:59:54] [Server thread/INFO] [MixinBooter]: Initializing MixinBooter's Mod Container.
-[20:59:54] [Server thread/INFO] [FML]: Searching /workspaces/minecraftserver/servidor_minecraft/./mods for mods
-[20:59:54] [Server thread/WARN] [FML]: Mod securitycraft is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version v1.10
-[20:59:54] [Server thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
-[20:59:54] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[20:59:54] [Server thread/INFO] [MixinBooter]: Loading late loader [io.bluebeaker.jei_uu_assembler.JeiUuAssemblerMixins] for its mixins.
-[20:59:54] [Server thread/INFO] [MixinBooter]: Adding [mixins.jei_uu_assembler.json] mixin configuration.
-[20:59:54] [Server thread/WARN] [mixin]: Error loading class: ic2/core/block/machine/tileentity/TileEntityAssemblyBench$UuRecipe (java.lang.ClassNotFoundException: The specified class 'ic2.core.block.machine.tileentity.TileEntityAssemblyBench$UuRecipe' was not found)
-[20:59:54] [Server thread/WARN] [mixin]: @Mixin target ic2.core.block.machine.tileentity.TileEntityAssemblyBench$UuRecipe was not found mixins.jei_uu_assembler.json:AccessorUuRecipe from owner unknown-owner
-[20:59:54] [Server thread/WARN] [mixin]: Error loading class: ic2/core/block/machine/tileentity/TileEntityMassFabricator (java.lang.ClassNotFoundException: The specified class 'ic2.core.block.machine.tileentity.TileEntityMassFabricator' was not found)
-[20:59:54] [Server thread/WARN] [mixin]: @Mixin target ic2.core.block.machine.tileentity.TileEntityMassFabricator was not found mixins.jei_uu_assembler.json:AccessorTileEntityMassFabricator from owner unknown-owner
-[20:59:54] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mixinbooter, securitycraft, coralreef, jei_uu_assembler] at CLIENT
-[20:59:54] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mixinbooter, securitycraft, coralreef, jei_uu_assembler] at SERVER
-[20:59:55] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[20:59:55] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
-[20:59:55] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[20:59:55] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[20:59:55] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[20:59:55] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[20:59:55] [Server thread/INFO] [FML]: Applying holder lookups
-[20:59:55] [Server thread/INFO] [FML]: Holder lookups applied
-[20:59:55] [Server thread/INFO] [FML]: Applying holder lookups
-[20:59:55] [Server thread/INFO] [FML]: Holder lookups applied
-[20:59:55] [Server thread/INFO] [FML]: Applying holder lookups
-[20:59:55] [Server thread/INFO] [FML]: Holder lookups applied
-[20:59:55] [Server thread/INFO] [FML]: Applying holder lookups
-[20:59:55] [Server thread/INFO] [FML]: Holder lookups applied
-[20:59:55] [Server thread/INFO] [FML]: Injecting itemstacks
-[20:59:55] [Server thread/INFO] [FML]: Itemstack injection complete
-[20:59:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[20:59:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[20:59:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[20:59:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[20:59:56] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[20:59:56] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[20:59:56] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[20:59:56] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:59:56] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[20:59:56] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:59:56] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:59:56] [Server thread/INFO] [FML]: Applying holder lookups
-[20:59:56] [Server thread/INFO] [FML]: Holder lookups applied
-[20:59:56] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Found status: UP_TO_DATE Target: null
-[20:59:56] [Server thread/INFO] [FML]: Injecting itemstacks
-[20:59:56] [Server thread/INFO] [FML]: Itemstack injection complete
-[20:59:56] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 8 mods
-[20:59:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[20:59:56] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[20:59:56] [Server thread/INFO] [FML]: Applying holder lookups
-[20:59:56] [Server thread/INFO] [FML]: Holder lookups applied
-[20:59:57] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@12d593d)
-[20:59:57] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[20:59:57] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@12d593d)
-[20:59:57] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@12d593d)
-[20:59:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[20:59:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 82%
-[20:59:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1.835s)! For help, type "help" or "?"
-[20:59:58] [Server thread/INFO] [FML]: Unloading dimension -1
-[20:59:58] [Server thread/INFO] [FML]: Unloading dimension 1
-[21:00:09] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[21:00:09] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2859,mcp@9.42,journeymap@1.12.2-5.7.1p2,jei@4.16.1.1013
-[21:00:09] [Netty Epoll Server IO #2/INFO] [FML]: Attempting connection with missing mods [mixinbooter, securitycraft, coralreef, jei_uu_assembler] at CLIENT
-[21:00:09] [Netty Epoll Server IO #2/INFO] [FML]: Rejecting connection CLIENT: Coralreef: Requires version 2.0 but mod is not found on client.
-Just Enough UU Assembler: Requires version 1.1.0 but mod is not found on client.
-SecurityCraft: Requires version v1.10 but mod is not found on client.
-[21:00:09] [Netty Epoll Server IO #2/ERROR] [FML]: Network Disconnect: Server Mod rejections:
-Coralreef: Requires version 2.0 but mod is not found on client.
-Just Enough UU Assembler: Requires version 1.1.0 but mod is not found on client.
-SecurityCraft: Requires version v1.10 but mod is not found on client.
-[21:00:09] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Xx_maxi777_xX lost connection: Server Mod rejections:
-Coralreef: Requires version 2.0 but mod is not found on client.
-Just Enough UU Assembler: Requires version 1.1.0 but mod is not found on client.
-SecurityCraft: Requires version v1.10 but mod is not found on client.
-[21:00:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX left the game
-[21:05:12] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
-[21:05:12] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2859,mcp@9.42,journeymap@1.12.2-5.7.1p2,jei@4.16.1.1013
-[21:05:12] [Netty Epoll Server IO #4/INFO] [FML]: Attempting connection with missing mods [mixinbooter, securitycraft, coralreef, jei_uu_assembler] at CLIENT
-[21:05:12] [Netty Epoll Server IO #4/INFO] [FML]: Rejecting connection CLIENT: Coralreef: Requires version 2.0 but mod is not found on client.
-Just Enough UU Assembler: Requires version 1.1.0 but mod is not found on client.
-SecurityCraft: Requires version v1.10 but mod is not found on client.
-[21:05:12] [Netty Epoll Server IO #4/ERROR] [FML]: Network Disconnect: Server Mod rejections:
-Coralreef: Requires version 2.0 but mod is not found on client.
-Just Enough UU Assembler: Requires version 1.1.0 but mod is not found on client.
-SecurityCraft: Requires version v1.10 but mod is not found on client.
-[21:05:12] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Xx_maxi777_xX lost connection: Server Mod rejections:
-Coralreef: Requires version 2.0 but mod is not found on client.
-Just Enough UU Assembler: Requires version 1.1.0 but mod is not found on client.
-SecurityCraft: Requires version v1.10 but mod is not found on client.
-[21:05:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX left the game
-[21:07:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[21:07:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[21:07:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[21:07:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[21:07:46] [Server thread/INFO] [FML]: Unloading dimension 0
-[21:07:46] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[21:07:46] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[21:07:46] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[21:43:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:43:19] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:43:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[21:43:19] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[21:43:19] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_452, running on Linux:amd64:6.8.0-1027-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[21:43:19] [main/INFO] [FML]: Searching /workspaces/minecraftserver/servidor_minecraft/./mods for mods
+[21:43:19] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from !mixinbooter-10.6.jar
+[21:43:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.71_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:43:19] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:43:19] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[21:43:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:43:19] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[21:43:19] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraftserver/servidor_minecraft/./mods/!mixinbooter-10.6.jar Service=LaunchWrapper Env=SERVER
+[21:43:19] [main/WARN] [FML]: The coremod zone.rong.mixinbooter.MixinBooterPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:43:19] [main/WARN] [FML]: The coremod MixinBooter (zone.rong.mixinbooter.MixinBooterPlugin) is not signed!
+[21:43:19] [main/INFO] [MixinBooter]: Initializing Mixins...
+[21:43:19] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[21:43:19] [main/INFO] [MixinBooter]: Initializing MixinExtras...
+[21:43:19] [main/INFO] [MixinBooter]: Gathering present mods...
+[21:43:20] [main/INFO] [MixinBooter]: Finished gathering 2 coremods...
+[21:43:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:43:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:43:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:43:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:43:21] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[21:43:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:43:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:43:21] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[21:43:21] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@4567e53d
+[21:43:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:43:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:43:21] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[21:43:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:43:21] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[21:43:21] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-rc.1).
+[21:43:22] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[21:43:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[21:43:25] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[21:43:25] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[21:43:25] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[21:43:25] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[21:43:25] [Server thread/INFO] [MixinBooter]: Initializing MixinBooter's Mod Container.
+[21:43:25] [Server thread/INFO] [FML]: Searching /workspaces/minecraftserver/servidor_minecraft/./mods for mods
+[21:43:26] [Server thread/INFO] [FML]: Forge Mod Loader has identified 13 mods to load
+[21:43:26] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[21:43:26] [Server thread/WARN] [FML]: Missing English translation for roguelike: assets/roguelike/lang/en_us.lang
+[21:43:26] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, mixinbooter, creativecore, jei, oreexcavation, playerrevive, roguelike, uteamcore, usefulbackpacks] at CLIENT
+[21:43:26] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, mixinbooter, creativecore, jei, oreexcavation, playerrevive, roguelike, uteamcore, usefulbackpacks] at SERVER
+[21:43:26] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[21:43:26] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[21:43:26] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[21:43:26] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[21:43:26] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[21:43:26] [Forge Version Check/INFO] [forge.VersionCheck]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
+[21:43:26] [Server thread/INFO] [FML]: Applying holder lookups
+[21:43:26] [Server thread/INFO] [FML]: Holder lookups applied
+[21:43:26] [Server thread/INFO] [FML]: Applying holder lookups
+[21:43:26] [Server thread/INFO] [FML]: Holder lookups applied
+[21:43:26] [Server thread/INFO] [FML]: Applying holder lookups
+[21:43:26] [Server thread/INFO] [FML]: Holder lookups applied
+[21:43:26] [Server thread/INFO] [FML]: Applying holder lookups
+[21:43:26] [Server thread/INFO] [FML]: Holder lookups applied
+[21:43:26] [Server thread/INFO] [FML]: Injecting itemstacks
+[21:43:26] [Server thread/INFO] [FML]: Itemstack injection complete
+[21:43:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[21:43:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[21:43:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[21:43:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[21:43:27] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[21:43:27] [Forge Version Check/INFO] [forge.VersionCheck]: [usefulbackpacks] Found status: OUTDATED Target: 1.5.4.85
+[21:43:27] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[21:43:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:43:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[21:43:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:43:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:43:27] [Server thread/INFO] [FML]: Applying holder lookups
+[21:43:27] [Server thread/INFO] [FML]: Holder lookups applied
+[21:43:27] [Server thread/INFO] [FML]: Injecting itemstacks
+[21:43:27] [Server thread/INFO] [FML]: Itemstack injection complete
+[21:43:27] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 13 mods
+[21:43:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[21:43:27] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod securitycraft which appears to be missing, things may not work well
+[21:43:27] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod coralreef which appears to be missing, things may not work well
+[21:43:27] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod jei_uu_assembler which appears to be missing, things may not work well
+[21:43:27] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[21:43:27] [Server thread/INFO] [FML]: Registry EntityEntry: Found a missing id from the world securitycraft:imsbomb
+[21:43:27] [Server thread/INFO] [FML]: Registry EntityEntry: Found a missing id from the world securitycraft:securitycamera
+[21:43:27] [Server thread/INFO] [FML]: Registry EntityEntry: Found a missing id from the world securitycraft:bouncingbetty
+[21:43:27] [Server thread/INFO] [FML]: Registry EntityEntry: Found a missing id from the world securitycraft:bullet
+[21:43:27] [Server thread/INFO] [FML]: Registry EntityEntry: Found a missing id from the world securitycraft:sentry
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_magma_block
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_trapdoor
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_observer
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_quartz
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stained_hardened_clay
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_door
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_packed_ice
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_red_sandstone
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:netherrack_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_oak
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_stone_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:inventory_scanner
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_purpur
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:laser
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_chest
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_cobblestone
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:display_case
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keycard_reader
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:alarm
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:lapis_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_acacia_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:electrified_iron_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:coal_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_jungle
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:sentry_disguise
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_pink_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_double_crystal_quartz_slab
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_red_nether_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:dirt_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_walls
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_glass_pane
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_pressure_plate
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_netherrack
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_sea_lantern
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:scanner_trapdoor
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_birch
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_nether_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_light_blue_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_nether_wart_block
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:secret_sign_standing
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:secure_redstone_interface
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world coralreef:coral
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dispenser
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_iron_bars
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_sandstone
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:end_stone_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_spruce_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_acacia
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:gold_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_mossy_cobblestone
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_carpet
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_piston_head
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_piston
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:gravel_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:block_pocket_wall
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_end_stone_bricks
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bouncing_betty
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:mine_cut
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_concrete
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_stone
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_cobblestone
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:track_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_snow_block
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_crystal_quartz
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_white_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_crystal_quartz
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_hopper
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:username_logger
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dark_oak_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:motion_activated_light
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:double_crystal_quartz_slab
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:claymore
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_bookshelf
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:ims
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_frame
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_bone_block
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_silver_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_blue_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:crystal_quartz
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:laser_block
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_iron_trapdoor
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_nether_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_crystal_quartz_slab
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stained_glass
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_grass
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:horizontal_reinforced_iron_bars
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_mycelium
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_obsidian
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_hardened_clay
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_yellow_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:floor_ceiling_key_panel
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_green_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_planks
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dark_oak_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bogus_water_flowing
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:stone_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:inventory_scanner_field
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:wall_keycard_lock
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_button
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:redstone_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_furnace
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_sand
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_nether_brick_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_oak_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:secret_sign_wall
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_brown_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_darkoak
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:stairs_crystal_quartz
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:wall_block_change_detector
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:diamond_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bogus_lava_flowing
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_glass_block
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_red_sandstone
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:sonic_security_system
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:cage_trap
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:protecto
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stained_panes
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_logs2
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dropper
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:emerald_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:iron_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_grass_path
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:cobblestone_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_acacia_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world coralreef:reef
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_cyan_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:iron_door_reinforced
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:block_change_detector
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:floor_trap
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_birch_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_black_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_logs
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_quartz
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:quartz_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:alarm_lit
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_purpur
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:wall_key_panel
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_glowstone
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:portable_radar
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:rift_stabilizer
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_jungle_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_purple_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_gray_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_compressed_blocks
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_spruce
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:security_camera
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:floor_ceiling_keycard_lock
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dirt
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_red_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_magenta_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:trophy_system
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_slabs2
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_lever
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:block_pocket_manager
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_oak_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_double_stone_slabs2
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_soul_sand
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_sandstone
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_metals
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_piston_extension
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_slabs
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_end_rod
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_ladder
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_wood_slabs
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_wooden_pressure_plate
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_cauldron
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_lime_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_prismarine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_double_stone_slabs
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:crystal_quartz_slab
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_sticky_piston
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:retinal_scanner
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_redstone_lamp
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_double_wood_slabs
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_gravel
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_wooden_button
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_wool
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_end_stone
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_ice
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bogus_water
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_jungle_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_clay
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bogus_lava
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:sand_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_birch_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:furnace_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:projector
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_cobweb
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:panic_button
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_orange_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:scanner_door
+[21:43:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_spruce_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_magma_block
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keypad_trapdoor
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_observer
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_quartz
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stained_hardened_clay
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_packed_ice
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_red_sandstone
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:netherrack_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_oak
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_stone_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:universal_owner_changer
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:inventory_scanner
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_purpur
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keypad_chest
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:crystal_quartz_item
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:universal_block_modifier
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_cobblestone
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:display_case
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keycard_reader
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:alarm
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:lapis_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_acacia_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:electrified_iron_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:coal_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_jungle
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_pink_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_red_nether_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:dirt_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_walls
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:codebreaker
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_glass_pane
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stone_pressure_plate
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_netherrack
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_sea_lantern
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:scanner_trapdoor
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_birch
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_nether_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_light_blue_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_nether_wart_block
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:camera_monitor
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:harming_module
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:sc_manual
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:secure_redstone_interface
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world coralreef:coral
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_dispenser
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_iron_bars
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_sandstone
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:end_stone_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_spruce_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_acacia
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:gold_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_mossy_cobblestone
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_carpet
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_piston
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:gravel_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:block_pocket_wall
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:bucket_f_lava
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_end_stone_bricks
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:bouncing_betty
+[21:43:27] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keypad_door_item
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_concrete
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_stone
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_cobblestone
+[21:43:27] [Forge Version Check/INFO] [forge.VersionCheck]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:track_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_snow_block
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_crystal_quartz
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:disguise_module
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_white_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_crystal_quartz
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:briefcase
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_hopper
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:username_logger
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_dark_oak_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:motion_activated_light
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:claymore
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:universal_block_remover
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_bookshelf
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:ims
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keypad_frame
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_bone_block
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_silver_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_blue_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:storage_module
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:whitelist_module
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:crystal_quartz
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:laser_block
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_iron_trapdoor
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_nether_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_crystal_quartz_slab
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:remote_access_sentry
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stained_glass
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_grass
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keycard_lock
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_mycelium
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:limited_use_keycard
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_obsidian
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_hardened_clay
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_yellow_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_green_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_planks
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_dark_oak_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:bogus_water_flowing
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:stone_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stone_button
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:redstone_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keypad_furnace
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:portable_tune_player
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_sand
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_nether_brick_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_oak_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_brown_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_darkoak
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:stairs_crystal_quartz
+[21:43:27] [Forge Version Check/INFO] [forge.VersionCheck]: [uteamcore] Found status: UP_TO_DATE Target: null
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:diamond_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:bogus_lava_flowing
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_glass_block
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_red_sandstone
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:sonic_security_system
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:cage_trap
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:protecto
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:universal_block_reinforcer_lvl2
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:universal_block_reinforcer_lvl3
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stained_panes
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:secret_sign_item
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:universal_block_reinforcer_lvl1
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_logs2
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_dropper
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:emerald_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:iron_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_grass_path
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:cobblestone_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_acacia_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world coralreef:reef
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_cyan_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:block_change_detector
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:floor_trap
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_birch_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:speed_module
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_black_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_logs
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_quartz
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:quartz_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:remote_access_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_purpur
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:taser_powered
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keycard_holder
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_glowstone
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:portable_radar
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:rift_stabilizer
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stone
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_jungle_fence_gate
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_purple_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_gray_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_compressed_blocks
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_spruce
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:blacklist_module
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:security_camera
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_dirt
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stone_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:bucket_f_water
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:smart_module
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_red_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_magenta_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keypad
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:trophy_system
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stone_slabs2
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_lever
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:block_pocket_manager
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_oak_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:admin_tool
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_soul_sand
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keycard_lv5
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keycard_lv4
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keycard_lv3
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keycard_lv2
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keycard_lv1
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stairs_sandstone
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_metals
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_stone_slabs
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:universal_key_changer
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:wire_cutters
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_end_rod
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_ladder
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_wood_slabs
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_wooden_pressure_plate
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:sentry
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_cauldron
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:door_indestructible_iron_item
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_lime_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_prismarine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:scanner_door_item
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:crystal_quartz_slab
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_sticky_piston
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:retinal_scanner
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_redstone_lamp
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:redstone_module
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_gravel
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_wooden_button
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_wool
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_end_stone
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_ice
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:bogus_water
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_jungle_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_clay
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:bogus_lava
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:sand_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:taser
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:lens
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_birch_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_brick
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:furnace_mine
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:projector
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_cobweb
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:panic_button
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_orange_glazed_terracotta
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:keypad_item
+[21:43:27] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world securitycraft:reinforced_spruce_fence
+[21:43:27] [Server thread/INFO] [FML]: Registry SoundEvent: Found a missing id from the world securitycraft:camerasnap
+[21:43:27] [Server thread/INFO] [FML]: Registry SoundEvent: Found a missing id from the world securitycraft:get_item
+[21:43:27] [Server thread/INFO] [FML]: Registry SoundEvent: Found a missing id from the world securitycraft:display_case_close
+[21:43:27] [Server thread/INFO] [FML]: Registry SoundEvent: Found a missing id from the world securitycraft:electrified
+[21:43:27] [Server thread/INFO] [FML]: Registry SoundEvent: Found a missing id from the world securitycraft:alarm
+[21:43:27] [Server thread/INFO] [FML]: Registry SoundEvent: Found a missing id from the world securitycraft:camerazoomin
+[21:43:27] [Server thread/INFO] [FML]: Registry SoundEvent: Found a missing id from the world securitycraft:ping
+[21:43:27] [Server thread/INFO] [FML]: Registry SoundEvent: Found a missing id from the world securitycraft:lock
+[21:43:27] [Server thread/INFO] [FML]: Registry SoundEvent: Found a missing id from the world securitycraft:taserfire
+[21:43:27] [Server thread/INFO] [FML]: Registry SoundEvent: Found a missing id from the world securitycraft:display_case_open
+[21:43:27] [Server thread/ERROR] [FML]: Unidentified mapping from registry minecraft:entities
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:imsbomb: 38
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:securitycamera: 39
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bouncingbetty: 0
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bullet: 49
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:sentry: 48
+[21:43:27] [Server thread/ERROR] [FML]: Unidentified mapping from registry minecraft:blocks
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_redstone_lamp: 369
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:display_case: 410
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_mossy_cobblestone: 311
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_compressed_blocks: 321
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:security_camera: 289
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_sticky_piston: 364
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_glass_pane: 343
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_concrete: 334
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_green_glazed_terracotta: 406
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_oak_fence_gate: 426
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:cobblestone_mine: 437
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:mine: 257
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:stone_mine: 435
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_grass_path: 378
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_walls: 363
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:cage_trap: 271
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_double_stone_slabs2: 329
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_wooden_pressure_plate: 361
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:gravel_mine: 439
+[21:43:27] [Server thread/ERROR] [FML]:     coralreef:reef: 452
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:alarm: 277
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:ims: 300
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:claymore: 287
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:floor_ceiling_key_panel: 386
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_logs2: 319
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:block_change_detector: 389
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_jungle_fence_gate: 429
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:scanner_trapdoor: 416
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_stone: 298
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_jungle_fence: 423
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:horizontal_reinforced_iron_bars: 272
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:quartz_mine: 449
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_carpet: 345
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:emerald_mine: 448
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_glass_block: 301
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_cauldron: 385
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_acacia_fence: 425
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_glowstone: 346
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_oak: 290
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_black_glazed_terracotta: 408
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_sea_lantern: 341
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:diamond_mine: 446
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_red_sandstone: 326
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:netherrack_mine: 440
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_sandstone: 293
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keypad_furnace: 288
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:double_crystal_quartz_slab: 353
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_crystal_quartz_slab: 354
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_nether_brick_fence: 420
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_acacia: 296
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_lime_glazed_terracotta: 398
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:laser_block: 253
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_piston_extension: 367
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_planks: 284
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keypad_frame: 286
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_double_crystal_quartz_slab: 355
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_ladder: 412
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stone_brick: 309
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keypad: 256
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_wool: 322
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_orange_glazed_terracotta: 394
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_gray_glazed_terracotta: 400
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_hopper: 382
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stained_hardened_clay: 317
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_obsidian: 338
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stone_slabs2: 328
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:alarm_lit: 278
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_quartz: 323
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_purpur: 332
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_birch_fence_gate: 428
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stained_panes: 344
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_jungle: 295
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:protecto: 307
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_cobblestone: 282
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_acacia_fence_gate: 431
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:coal_mine: 444
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:track_mine: 270
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_ice: 373
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_brown_glazed_terracotta: 405
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:mine_cut: 258
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:username_logger: 276
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:sonic_security_system: 388
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:electrified_iron_fence: 299
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bogus_water_flowing: 264
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_spruce: 291
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_cobblestone: 292
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:end_stone_mine: 441
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:lapis_mine: 445
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_lever: 381
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:crystal_quartz_slab: 352
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_observer: 368
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_brick: 312
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:sentry_disguise: 391
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:sand_mine: 438
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_magenta_glazed_terracotta: 395
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_red_sandstone: 327
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_iron_bars: 274
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_double_wood_slabs: 304
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_end_stone_bricks: 330
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_light_blue_glazed_terracotta: 396
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:redstone_mine: 447
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keypad_trapdoor: 411
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_logs: 318
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_darkoak: 297
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bogus_lava_flowing: 262
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keypad_chest: 275
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_wooden_button: 380
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_pink_glazed_terracotta: 399
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_clay: 376
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:laser: 254
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_metals: 320
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bogus_lava: 261
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:projector: 383
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_cyan_glazed_terracotta: 402
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_snow_block: 372
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_brick: 313
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_dark_oak_fence_gate: 430
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_red_nether_brick: 331
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_yellow_glazed_terracotta: 397
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_blue_glazed_terracotta: 404
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stone_pressure_plate: 360
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:furnace_mine: 450
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_cobweb: 370
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_gravel: 348
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:retinal_scanner: 259
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_prismarine: 325
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:stairs_crystal_quartz: 356
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_birch: 294
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_piston_head: 366
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:block_pocket_manager: 359
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_birch_fence: 422
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:wall_block_change_detector: 390
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_bookshelf: 362
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_piston: 365
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_purpur: 333
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_dropper: 418
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:rift_stabilizer: 409
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_nether_brick: 315
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_spruce_fence_gate: 427
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_dark_oak_fence: 424
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_magma_block: 433
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_spruce_fence: 421
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_bone_block: 342
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_mycelium: 375
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:iron_door_reinforced: 260
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:scanner_door: 308
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_iron_trapdoor: 266
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:floor_trap: 413
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keypad_door: 384
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_purple_glazed_terracotta: 403
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_crystal_quartz: 351
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:block_pocket_wall: 358
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:iron_mine: 443
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:secure_redstone_interface: 432
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_white_glazed_terracotta: 393
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:secret_sign_standing: 336
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_double_stone_slabs: 306
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_quartz: 324
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:gold_mine: 442
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stone: 279
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_dirt: 281
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_soul_sand: 434
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:inventory_scanner: 268
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stone_slabs: 305
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_nether_wart_block: 377
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stone_button: 379
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_fence_gate: 283
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:secret_sign_wall: 335
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:floor_ceiling_keycard_lock: 414
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:wall_key_panel: 387
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_packed_ice: 374
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keycard_reader: 265
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_silver_glazed_terracotta: 401
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_nether_brick: 314
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_sandstone: 280
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_dispenser: 417
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bouncing_betty: 267
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_crystal_quartz: 357
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_grass: 371
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bogus_water: 263
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stained_glass: 302
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_hardened_clay: 316
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_netherrack: 339
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:portable_radar: 273
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:inventory_scanner_field: 269
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_wood_slabs: 303
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_end_rod: 392
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_red_glazed_terracotta: 407
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_end_stone: 340
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:dirt_mine: 436
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:trophy_system: 349
+[21:43:27] [Server thread/ERROR] [FML]:     coralreef:coral: 451
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_oak_fence: 419
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:panic_button: 285
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_stone_brick: 310
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:motion_activated_light: 337
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_sand: 347
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:wall_keycard_lock: 415
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:crystal_quartz: 350
+[21:43:27] [Server thread/ERROR] [FML]: Unidentified mapping from registry minecraft:items
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_mycelium: 4201
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:furnace_mine: 4268
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:scanner_door_item: 4271
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:ims: 4136
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keypad: 4097
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_purple_glazed_terracotta: 4223
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_end_stone: 4170
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keypad_frame: 4122
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stained_panes: 4174
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_brick: 4146
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_dark_oak_fence_gate: 4248
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:redstone_mine: 4265
+[21:43:27] [Server thread/ERROR] [FML]:     coralreef:reef: 4315
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:disguise_module: 4290
+[21:43:27] [Server thread/ERROR] [FML]:     coralreef:coral: 4314
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:taser_powered: 4304
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bucket_f_lava: 4282
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_mossy_cobblestone: 4144
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_sand: 4177
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:remote_access_mine: 4279
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_black_glazed_terracotta: 4228
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_gray_glazed_terracotta: 4220
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:electrified_iron_fence: 4135
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:end_stone_mine: 4259
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:display_case: 4230
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:retinal_scanner: 4099
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stone_slabs2: 4161
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:dirt_mine: 4254
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_acacia_fence_gate: 4249
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_crystal_quartz: 4185
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_cauldron: 4210
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_lever: 4207
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_ice: 4199
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_crystal_quartz_slab: 4183
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:projector: 4209
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:remote_access_sentry: 4280
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:sonic_security_system: 4211
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keycard_lv2: 4274
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:block_pocket_manager: 4187
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:username_logger: 4113
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:stairs_crystal_quartz: 4184
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_white_glazed_terracotta: 4213
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_carpet: 4175
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_quartz: 4156
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_ladder: 4232
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:gold_mine: 4260
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_jungle_fence_gate: 4247
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:block_pocket_wall: 4186
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:netherrack_mine: 4258
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keycard_holder: 4310
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_oak_fence: 4237
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bogus_lava_flowing: 4101
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bucket_f_water: 4281
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:lens: 4311
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_fence_gate: 4119
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stained_hardened_clay: 4150
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_brick: 4145
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_planks: 4120
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_hopper: 4208
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:alarm: 4114
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stone_brick: 4142
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_acacia: 4132
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_purpur: 4164
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:panic_button: 4121
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keypad_furnace: 4124
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_spruce_fence_gate: 4245
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_nether_brick: 4147
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stone: 4115
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:security_camera: 4125
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:wire_cutters: 4292
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:briefcase: 4302
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keycard_reader: 4104
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_birch_fence_gate: 4246
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stone_slabs: 4140
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:sc_manual: 4297
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_concrete: 4166
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_jungle_fence: 4241
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:protecto: 4141
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:track_mine: 4108
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_pink_glazed_terracotta: 4219
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:portable_radar: 4110
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_cobblestone: 4118
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_bone_block: 4172
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:universal_block_modifier: 4283
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_gravel: 4178
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:whitelist_module: 4285
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_nether_wart_block: 4203
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:rift_stabilizer: 4229
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_glowstone: 4176
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:motion_activated_light: 4167
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:universal_block_reinforcer_lvl3: 4301
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_red_sandstone: 4159
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:codebreaker: 4269
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_red_nether_brick: 4163
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_end_stone_bricks: 4162
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:coal_mine: 4262
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:camera_monitor: 4295
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_nether_brick: 4148
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_darkoak: 4133
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:door_indestructible_iron_item: 4270
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:crystal_quartz: 4180
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_hardened_clay: 4149
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_walls: 4191
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keycard_lv4: 4276
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:crystal_quartz_slab: 4182
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:taser: 4296
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_glass_pane: 4173
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_soul_sand: 4252
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_glass_block: 4137
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keypad_item: 4294
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_sea_lantern: 4171
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_snow_block: 4198
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keycard_lv5: 4277
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_dirt: 4117
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_bookshelf: 4190
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_sticky_piston: 4192
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:admin_tool: 4293
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:quartz_mine: 4267
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_quartz: 4157
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_dark_oak_fence: 4242
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_jungle: 4131
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_compressed_blocks: 4154
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_oak: 4126
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:inventory_scanner: 4107
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keypad_door_item: 4308
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:lapis_mine: 4263
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_cyan_glazed_terracotta: 4222
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:secret_sign_item: 4305
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:blacklist_module: 4286
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:speed_module: 4291
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_end_rod: 4212
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_wooden_button: 4206
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:gravel_mine: 4257
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:emerald_mine: 4266
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_red_sandstone: 4160
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_dropper: 4236
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:universal_block_reinforcer_lvl2: 4300
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:storage_module: 4289
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_magma_block: 4251
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:secure_redstone_interface: 4250
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_logs2: 4152
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:block_change_detector: 4313
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:sand_mine: 4256
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:universal_key_changer: 4303
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_birch_fence: 4240
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_dispenser: 4235
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_obsidian: 4168
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_clay: 4202
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_wood_slabs: 4139
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_oak_fence_gate: 4244
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_purpur: 4165
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_stone_brick: 4143
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:redstone_module: 4284
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:limited_use_keycard: 4278
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_spruce: 4127
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_sandstone: 4129
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_metals: 4153
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_cobweb: 4196
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_spruce_fence: 4239
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_magenta_glazed_terracotta: 4215
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:stone_mine: 4253
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bouncing_betty: 4106
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:floor_trap: 4233
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:laser_block: 4096
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_nether_brick_fence: 4238
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_observer: 4194
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keypad_chest: 4112
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_cobblestone: 4128
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bogus_water_flowing: 4103
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:portable_tune_player: 4309
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keypad_trapdoor: 4231
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_grass_path: 4204
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:claymore: 4123
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stained_glass: 4138
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:crystal_quartz_item: 4307
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:universal_owner_changer: 4298
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_red_glazed_terracotta: 4227
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:iron_mine: 4261
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bogus_lava: 4100
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stone_pressure_plate: 4188
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_stone: 4134
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:smart_module: 4288
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_lime_glazed_terracotta: 4218
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:universal_block_remover: 4272
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:bogus_water: 4102
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:trophy_system: 4179
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:mine: 4098
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_wool: 4155
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:cobblestone_mine: 4255
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_orange_glazed_terracotta: 4214
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:harming_module: 4287
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stairs_birch: 4130
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_netherrack: 4169
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_prismarine: 4158
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:cage_trap: 4109
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_brown_glazed_terracotta: 4225
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_sandstone: 4116
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:universal_block_reinforcer_lvl1: 4299
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_stone_button: 4205
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:scanner_trapdoor: 4234
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_crystal_quartz: 4181
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keycard_lv1: 4273
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_blue_glazed_terracotta: 4224
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_grass: 4197
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_iron_trapdoor: 4105
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keycard_lock: 4312
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:diamond_mine: 4264
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:keycard_lv3: 4275
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_iron_bars: 4111
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_wooden_pressure_plate: 4189
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_acacia_fence: 4243
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_piston: 4193
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_light_blue_glazed_terracotta: 4216
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_logs: 4151
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_yellow_glazed_terracotta: 4217
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:sentry: 4306
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_silver_glazed_terracotta: 4221
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_green_glazed_terracotta: 4226
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_redstone_lamp: 4195
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:reinforced_packed_ice: 4200
+[21:43:27] [Server thread/ERROR] [FML]: Unidentified mapping from registry minecraft:soundevents
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:electrified: 553
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:taserfire: 552
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:camerazoomin: 550
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:camerasnap: 551
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:get_item: 556
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:alarm: 549
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:lock: 554
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:display_case_open: 557
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:ping: 555
+[21:43:27] [Server thread/ERROR] [FML]:     securitycraft:display_case_close: 558
+[21:43:27] [Server thread/WARN] [FML]: Forge Mod Loader detected missing registry entries.
+
+There are 434 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+Missing minecraft:entities:
+    securitycraft:imsbomb
+    securitycraft:securitycamera
+    securitycraft:bouncingbetty
+    securitycraft:bullet
+    securitycraft:sentry
+Missing minecraft:blocks:
+    securitycraft:reinforced_stairs_darkoak
+    securitycraft:stairs_crystal_quartz
+    securitycraft:wall_block_change_detector
+    securitycraft:reinforced_magma_block
+    securitycraft:keypad_trapdoor
+    securitycraft:reinforced_observer
+    securitycraft:reinforced_quartz
+    securitycraft:reinforced_stained_hardened_clay
+    securitycraft:keypad_door
+    securitycraft:diamond_mine
+    securitycraft:reinforced_packed_ice
+    securitycraft:bogus_lava_flowing
+    securitycraft:reinforced_glass_block
+    securitycraft:reinforced_stairs_red_sandstone
+    securitycraft:reinforced_red_sandstone
+    securitycraft:netherrack_mine
+    securitycraft:sonic_security_system
+    securitycraft:reinforced_stairs_oak
+    securitycraft:reinforced_stairs_stone_brick
+    securitycraft:cage_trap
+    securitycraft:protecto
+    securitycraft:inventory_scanner
+    securitycraft:reinforced_purpur
+    securitycraft:reinforced_stained_panes
+    securitycraft:laser
+    securitycraft:keypad_chest
+    securitycraft:reinforced_logs2
+    securitycraft:reinforced_stairs_brick
+    securitycraft:reinforced_dropper
+    securitycraft:emerald_mine
+    securitycraft:iron_mine
+    securitycraft:reinforced_grass_path
+    securitycraft:cobblestone_mine
+    securitycraft:reinforced_stairs_cobblestone
+    securitycraft:reinforced_acacia_fence_gate
+    securitycraft:display_case
+    coralreef:reef
+    securitycraft:keycard_reader
+    securitycraft:reinforced_cyan_glazed_terracotta
+    securitycraft:alarm
+    securitycraft:lapis_mine
+    securitycraft:reinforced_acacia_fence
+    securitycraft:iron_door_reinforced
+    securitycraft:block_change_detector
+    securitycraft:reinforced_fence_gate
+    securitycraft:floor_trap
+    securitycraft:electrified_iron_fence
+    securitycraft:reinforced_birch_fence_gate
+    securitycraft:coal_mine
+    securitycraft:reinforced_black_glazed_terracotta
+    securitycraft:reinforced_stairs_jungle
+    securitycraft:reinforced_logs
+    securitycraft:sentry_disguise
+    securitycraft:reinforced_pink_glazed_terracotta
+    securitycraft:reinforced_stairs_quartz
+    securitycraft:quartz_mine
+    securitycraft:reinforced_double_crystal_quartz_slab
+    securitycraft:reinforced_red_nether_brick
+    securitycraft:dirt_mine
+    securitycraft:alarm_lit
+    securitycraft:reinforced_walls
+    securitycraft:mine
+    securitycraft:reinforced_glass_pane
+    securitycraft:reinforced_stone_pressure_plate
+    securitycraft:reinforced_netherrack
+    securitycraft:reinforced_sea_lantern
+    securitycraft:reinforced_stairs_purpur
+    securitycraft:wall_key_panel
+    securitycraft:scanner_trapdoor
+    securitycraft:reinforced_stairs_birch
+    securitycraft:reinforced_stairs_nether_brick
+    securitycraft:reinforced_glowstone
+    securitycraft:reinforced_light_blue_glazed_terracotta
+    securitycraft:reinforced_nether_wart_block
+    securitycraft:portable_radar
+    securitycraft:rift_stabilizer
+    securitycraft:reinforced_stone
+    securitycraft:reinforced_jungle_fence_gate
+    securitycraft:reinforced_purple_glazed_terracotta
+    securitycraft:secret_sign_standing
+    securitycraft:reinforced_gray_glazed_terracotta
+    securitycraft:reinforced_compressed_blocks
+    securitycraft:reinforced_stairs_spruce
+    securitycraft:security_camera
+    securitycraft:floor_ceiling_keycard_lock
+    securitycraft:secure_redstone_interface
+    coralreef:coral
+    securitycraft:reinforced_dirt
+    securitycraft:reinforced_dispenser
+    securitycraft:reinforced_iron_bars
+    securitycraft:reinforced_stone_brick
+    securitycraft:reinforced_sandstone
+    securitycraft:end_stone_mine
+    securitycraft:reinforced_spruce_fence_gate
+    securitycraft:reinforced_stairs_acacia
+    securitycraft:reinforced_red_glazed_terracotta
+    securitycraft:reinforced_magenta_glazed_terracotta
+    securitycraft:keypad
+    securitycraft:gold_mine
+    securitycraft:reinforced_mossy_cobblestone
+    securitycraft:reinforced_carpet
+    securitycraft:reinforced_piston_head
+    securitycraft:reinforced_piston
+    securitycraft:trophy_system
+    securitycraft:gravel_mine
+    securitycraft:reinforced_stone_slabs2
+    securitycraft:reinforced_lever
+    securitycraft:block_pocket_manager
+    securitycraft:block_pocket_wall
+    securitycraft:reinforced_end_stone_bricks
+    securitycraft:reinforced_oak_fence
+    securitycraft:bouncing_betty
+    securitycraft:mine_cut
+    securitycraft:reinforced_concrete
+    securitycraft:reinforced_double_stone_slabs2
+    securitycraft:reinforced_stairs_stone
+    securitycraft:reinforced_cobblestone
+    securitycraft:reinforced_soul_sand
+    securitycraft:track_mine
+    securitycraft:reinforced_stairs_sandstone
+    securitycraft:reinforced_snow_block
+    securitycraft:reinforced_crystal_quartz
+    securitycraft:reinforced_metals
+    securitycraft:reinforced_piston_extension
+    securitycraft:reinforced_white_glazed_terracotta
+    securitycraft:reinforced_stairs_crystal_quartz
+    securitycraft:reinforced_hopper
+    securitycraft:username_logger
+    securitycraft:reinforced_stone_slabs
+    securitycraft:reinforced_dark_oak_fence_gate
+    securitycraft:reinforced_end_rod
+    securitycraft:motion_activated_light
+    securitycraft:reinforced_ladder
+    securitycraft:reinforced_wood_slabs
+    securitycraft:reinforced_wooden_pressure_plate
+    securitycraft:double_crystal_quartz_slab
+    securitycraft:claymore
+    securitycraft:reinforced_cauldron
+    securitycraft:reinforced_lime_glazed_terracotta
+    securitycraft:reinforced_prismarine
+    securitycraft:reinforced_double_stone_slabs
+    securitycraft:crystal_quartz_slab
+    securitycraft:reinforced_bookshelf
+    securitycraft:reinforced_sticky_piston
+    securitycraft:ims
+    securitycraft:retinal_scanner
+    securitycraft:reinforced_redstone_lamp
+    securitycraft:keypad_frame
+    securitycraft:reinforced_bone_block
+    securitycraft:reinforced_silver_glazed_terracotta
+    securitycraft:reinforced_double_wood_slabs
+    securitycraft:reinforced_blue_glazed_terracotta
+    securitycraft:crystal_quartz
+    securitycraft:laser_block
+    securitycraft:reinforced_gravel
+    securitycraft:reinforced_wooden_button
+    securitycraft:reinforced_iron_trapdoor
+    securitycraft:reinforced_nether_brick
+    securitycraft:reinforced_crystal_quartz_slab
+    securitycraft:reinforced_wool
+    securitycraft:reinforced_stained_glass
+    securitycraft:reinforced_grass
+    securitycraft:reinforced_end_stone
+    securitycraft:reinforced_ice
+    securitycraft:bogus_water
+    securitycraft:horizontal_reinforced_iron_bars
+    securitycraft:reinforced_mycelium
+    securitycraft:reinforced_jungle_fence
+    securitycraft:reinforced_obsidian
+    securitycraft:reinforced_clay
+    securitycraft:reinforced_hardened_clay
+    securitycraft:bogus_lava
+    securitycraft:sand_mine
+    securitycraft:reinforced_yellow_glazed_terracotta
+    securitycraft:floor_ceiling_key_panel
+    securitycraft:reinforced_green_glazed_terracotta
+    securitycraft:reinforced_planks
+    securitycraft:reinforced_birch_fence
+    securitycraft:reinforced_dark_oak_fence
+    securitycraft:reinforced_brick
+    securitycraft:furnace_mine
+    securitycraft:bogus_water_flowing
+    securitycraft:projector
+    securitycraft:reinforced_cobweb
+    securitycraft:stone_mine
+    securitycraft:inventory_scanner_field
+    securitycraft:panic_button
+    securitycraft:wall_keycard_lock
+    securitycraft:reinforced_stone_button
+    securitycraft:redstone_mine
+    securitycraft:reinforced_orange_glazed_terracotta
+    securitycraft:keypad_furnace
+    securitycraft:reinforced_sand
+    securitycraft:reinforced_nether_brick_fence
+    securitycraft:reinforced_oak_fence_gate
+    securitycraft:secret_sign_wall
+    securitycraft:scanner_door
+    securitycraft:reinforced_brown_glazed_terracotta
+    securitycraft:reinforced_spruce_fence
+Missing minecraft:items:
+    securitycraft:reinforced_stairs_darkoak
+    securitycraft:stairs_crystal_quartz
+    securitycraft:reinforced_magma_block
+    securitycraft:keypad_trapdoor
+    securitycraft:reinforced_observer
+    securitycraft:reinforced_quartz
+    securitycraft:reinforced_stained_hardened_clay
+    securitycraft:diamond_mine
+    securitycraft:reinforced_packed_ice
+    securitycraft:bogus_lava_flowing
+    securitycraft:reinforced_glass_block
+    securitycraft:reinforced_stairs_red_sandstone
+    securitycraft:reinforced_red_sandstone
+    securitycraft:netherrack_mine
+    securitycraft:sonic_security_system
+    securitycraft:reinforced_stairs_oak
+    securitycraft:reinforced_stairs_stone_brick
+    securitycraft:cage_trap
+    securitycraft:protecto
+    securitycraft:universal_owner_changer
+    securitycraft:universal_block_reinforcer_lvl2
+    securitycraft:universal_block_reinforcer_lvl3
+    securitycraft:inventory_scanner
+    securitycraft:reinforced_purpur
+    securitycraft:reinforced_stained_panes
+    securitycraft:secret_sign_item
+    securitycraft:universal_block_reinforcer_lvl1
+    securitycraft:keypad_chest
+    securitycraft:crystal_quartz_item
+    securitycraft:reinforced_logs2
+    securitycraft:reinforced_stairs_brick
+    securitycraft:reinforced_dropper
+    securitycraft:universal_block_modifier
+    securitycraft:emerald_mine
+    securitycraft:iron_mine
+    securitycraft:reinforced_grass_path
+    securitycraft:cobblestone_mine
+    securitycraft:reinforced_stairs_cobblestone
+    securitycraft:reinforced_acacia_fence_gate
+    securitycraft:display_case
+    coralreef:reef
+    securitycraft:keycard_reader
+    securitycraft:reinforced_cyan_glazed_terracotta
+    securitycraft:alarm
+    securitycraft:lapis_mine
+    securitycraft:reinforced_acacia_fence
+    securitycraft:block_change_detector
+    securitycraft:reinforced_fence_gate
+    securitycraft:floor_trap
+    securitycraft:electrified_iron_fence
+    securitycraft:reinforced_birch_fence_gate
+    securitycraft:coal_mine
+    securitycraft:speed_module
+    securitycraft:reinforced_black_glazed_terracotta
+    securitycraft:reinforced_stairs_jungle
+    securitycraft:reinforced_logs
+    securitycraft:reinforced_pink_glazed_terracotta
+    securitycraft:reinforced_stairs_quartz
+    securitycraft:quartz_mine
+    securitycraft:reinforced_red_nether_brick
+    securitycraft:dirt_mine
+    securitycraft:reinforced_walls
+    securitycraft:codebreaker
+    securitycraft:remote_access_mine
+    securitycraft:mine
+    securitycraft:reinforced_glass_pane
+    securitycraft:reinforced_stone_pressure_plate
+    securitycraft:reinforced_netherrack
+    securitycraft:reinforced_sea_lantern
+    securitycraft:reinforced_stairs_purpur
+    securitycraft:scanner_trapdoor
+    securitycraft:reinforced_stairs_birch
+    securitycraft:taser_powered
+    securitycraft:reinforced_stairs_nether_brick
+    securitycraft:keycard_holder
+    securitycraft:reinforced_glowstone
+    securitycraft:reinforced_light_blue_glazed_terracotta
+    securitycraft:reinforced_nether_wart_block
+    securitycraft:portable_radar
+    securitycraft:rift_stabilizer
+    securitycraft:reinforced_stone
+    securitycraft:reinforced_jungle_fence_gate
+    securitycraft:reinforced_purple_glazed_terracotta
+    securitycraft:camera_monitor
+    securitycraft:harming_module
+    securitycraft:reinforced_gray_glazed_terracotta
+    securitycraft:reinforced_compressed_blocks
+    securitycraft:reinforced_stairs_spruce
+    securitycraft:blacklist_module
+    securitycraft:sc_manual
+    securitycraft:security_camera
+    securitycraft:secure_redstone_interface
+    coralreef:coral
+    securitycraft:reinforced_dirt
+    securitycraft:reinforced_dispenser
+    securitycraft:reinforced_iron_bars
+    securitycraft:reinforced_stone_brick
+    securitycraft:reinforced_sandstone
+    securitycraft:end_stone_mine
+    securitycraft:bucket_f_water
+    securitycraft:smart_module
+    securitycraft:reinforced_spruce_fence_gate
+    securitycraft:reinforced_stairs_acacia
+    securitycraft:reinforced_red_glazed_terracotta
+    securitycraft:reinforced_magenta_glazed_terracotta
+    securitycraft:keypad
+    securitycraft:gold_mine
+    securitycraft:reinforced_mossy_cobblestone
+    securitycraft:reinforced_carpet
+    securitycraft:reinforced_piston
+    securitycraft:trophy_system
+    securitycraft:gravel_mine
+    securitycraft:reinforced_stone_slabs2
+    securitycraft:reinforced_lever
+    securitycraft:block_pocket_manager
+    securitycraft:block_pocket_wall
+    securitycraft:bucket_f_lava
+    securitycraft:reinforced_end_stone_bricks
+    securitycraft:reinforced_oak_fence
+    securitycraft:bouncing_betty
+    securitycraft:keypad_door_item
+    securitycraft:admin_tool
+    securitycraft:reinforced_concrete
+    securitycraft:reinforced_stairs_stone
+    securitycraft:reinforced_cobblestone
+    securitycraft:reinforced_soul_sand
+    securitycraft:keycard_lv5
+    securitycraft:keycard_lv4
+    securitycraft:keycard_lv3
+    securitycraft:keycard_lv2
+    securitycraft:track_mine
+    securitycraft:keycard_lv1
+    securitycraft:reinforced_stairs_sandstone
+    securitycraft:reinforced_snow_block
+    securitycraft:reinforced_crystal_quartz
+    securitycraft:disguise_module
+    securitycraft:reinforced_metals
+    securitycraft:reinforced_white_glazed_terracotta
+    securitycraft:reinforced_stairs_crystal_quartz
+    securitycraft:briefcase
+    securitycraft:reinforced_hopper
+    securitycraft:username_logger
+    securitycraft:reinforced_stone_slabs
+    securitycraft:reinforced_dark_oak_fence_gate
+    securitycraft:universal_key_changer
+    securitycraft:wire_cutters
+    securitycraft:reinforced_end_rod
+    securitycraft:motion_activated_light
+    securitycraft:reinforced_ladder
+    securitycraft:reinforced_wood_slabs
+    securitycraft:reinforced_wooden_pressure_plate
+    securitycraft:sentry
+    securitycraft:claymore
+    securitycraft:reinforced_cauldron
+    securitycraft:door_indestructible_iron_item
+    securitycraft:reinforced_lime_glazed_terracotta
+    securitycraft:reinforced_prismarine
+    securitycraft:universal_block_remover
+    securitycraft:scanner_door_item
+    securitycraft:crystal_quartz_slab
+    securitycraft:reinforced_bookshelf
+    securitycraft:reinforced_sticky_piston
+    securitycraft:ims
+    securitycraft:retinal_scanner
+    securitycraft:reinforced_redstone_lamp
+    securitycraft:keypad_frame
+    securitycraft:redstone_module
+    securitycraft:reinforced_bone_block
+    securitycraft:reinforced_silver_glazed_terracotta
+    securitycraft:reinforced_blue_glazed_terracotta
+    securitycraft:storage_module
+    securitycraft:whitelist_module
+    securitycraft:crystal_quartz
+    securitycraft:laser_block
+    securitycraft:reinforced_gravel
+    securitycraft:reinforced_wooden_button
+    securitycraft:reinforced_iron_trapdoor
+    securitycraft:reinforced_nether_brick
+    securitycraft:reinforced_crystal_quartz_slab
+    securitycraft:reinforced_wool
+    securitycraft:remote_access_sentry
+    securitycraft:reinforced_stained_glass
+    securitycraft:reinforced_grass
+    securitycraft:reinforced_end_stone
+    securitycraft:reinforced_ice
+    securitycraft:keycard_lock
+    securitycraft:bogus_water
+    securitycraft:reinforced_mycelium
+    securitycraft:reinforced_jungle_fence
+    securitycraft:limited_use_keycard
+    securitycraft:reinforced_obsidian
+    securitycraft:reinforced_clay
+    securitycraft:reinforced_hardened_clay
+    securitycraft:bogus_lava
+    securitycraft:sand_mine
+    securitycraft:reinforced_yellow_glazed_terracotta
+    securitycraft:taser
+    securitycraft:reinforced_green_glazed_terracotta
+    securitycraft:reinforced_planks
+    securitycraft:lens
+    securitycraft:reinforced_birch_fence
+    securitycraft:reinforced_dark_oak_fence
+    securitycraft:reinforced_brick
+    securitycraft:furnace_mine
+    securitycraft:bogus_water_flowing
+    securitycraft:projector
+    securitycraft:reinforced_cobweb
+    securitycraft:stone_mine
+    securitycraft:panic_button
+    securitycraft:reinforced_stone_button
+    securitycraft:redstone_mine
+    securitycraft:reinforced_orange_glazed_terracotta
+    securitycraft:keypad_item
+    securitycraft:keypad_furnace
+    securitycraft:portable_tune_player
+    securitycraft:reinforced_sand
+    securitycraft:reinforced_nether_brick_fence
+    securitycraft:reinforced_oak_fence_gate
+    securitycraft:reinforced_brown_glazed_terracotta
+    securitycraft:reinforced_spruce_fence
+Missing minecraft:soundevents:
+    securitycraft:camerasnap
+    securitycraft:get_item
+    securitycraft:electrified
+    securitycraft:ping
+    securitycraft:alarm
+    securitycraft:lock
+    securitycraft:taserfire
+    securitycraft:display_case_open
+    securitycraft:display_case_close
+    securitycraft:camerazoomin
+
+
+Run the command /fml confirm or or /fml cancel to proceed.
+Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResult=cancel to preselect the answer.
+[21:43:40] [Server thread/INFO] [FML]: confirmed
+[21:43:40] [Server thread/INFO] [FML]: World backup created at /workspaces/minecraftserver/servidor_minecraft/world-20250701-214340.zip.
+[21:43:40] [Server thread/ERROR] [FML]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[21:43:40] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: usefulbackpacks:backpack Expected: 4096 Got: 4316
+[21:43:40] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: playerrevive:revived Expected: 550 Got: 559
+[21:43:40] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: playerrevive:death Expected: 549 Got: 560
+[21:43:41] [Server thread/INFO] [FML]: Applying holder lookups
+[21:43:41] [Server thread/INFO] [FML]: Holder lookups applied
+[21:43:41] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@37344f88)
+[21:43:41] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[21:43:41] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@37344f88)
+[21:43:41] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@37344f88)
+[21:43:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[21:43:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 74%
+[21:43:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (15.335s)! For help, type "help" or "?"
+[21:43:42] [Server thread/INFO] [FML]: Unloading dimension -1
+[21:43:42] [Server thread/INFO] [FML]: Unloading dimension 1
+[21:43:52] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[21:43:52] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 14 mods : minecraft@1.12.2,usefulbackpacks@1.5.1.31,FML@8.0.99.99,uteamcore@2.2.5.375,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1013,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2859,controllable@0.11.2,playerrevive@1.0,mcp@9.42,journeymap@1.12.2-5.7.1p2,oreexcavation@1.4.140
+[21:43:52] [Netty Epoll Server IO #2/INFO] [FML]: Attempting connection with missing mods [mixinbooter, roguelike] at CLIENT
+[21:43:54] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[21:43:54] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Xx_maxi777_xX[/127.210.129.216:53185] logged in with entity id 405 at (-256.5, 64.0, -186.5)
+[21:43:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX joined the game
+[21:45:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 'Xx_maxi777_xX' is not a valid number
+[21:46:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: You must specify which player you wish to perform this action on.
+[21:46:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set Xx_maxi777_xX's game mode to Creative Mode
+[21:48:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set Xx_maxi777_xX's game mode to Survival Mode
+[21:48:50] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Xx_maxi777_xX lost connection: Disconnected
+[21:48:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX left the game
+[21:50:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[21:50:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[21:50:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[21:50:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[21:50:14] [Server thread/INFO] [FML]: Unloading dimension 0
+[21:50:14] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[21:50:14] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[21:50:14] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
