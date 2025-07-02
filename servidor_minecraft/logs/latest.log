@@ -1,472 +1,310 @@
-[00:18:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[00:18:01] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[00:18:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[00:18:01] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[00:18:01] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_452, running on Linux:amd64:6.8.0-1027-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[00:18:01] [main/ERROR] [FML]: Unable to read the jar file AoA3-3.3.6.jar - ignoring
-java.util.zip.ZipException: error in opening zip file
-	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_452]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:231) ~[?:1.8.0_452]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_452]
-	at java.util.jar.JarFile.<init>(JarFile.java:169) ~[?:1.8.0_452]
-	at java.util.jar.JarFile.<init>(JarFile.java:133) ~[?:1.8.0_452]
-	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.extractPacked(LibraryManager.java:200) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.cleanDirectory(LibraryManager.java:169) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraftforge.fml.relauncher.libraries.LibraryManager.setup(LibraryManager.java:97) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupHome(FMLLaunchHandler.java:106) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupServer(FMLLaunchHandler.java:87) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.configureForServerLaunch(FMLLaunchHandler.java:47) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraftforge.fml.common.launcher.FMLServerTweaker.injectIntoClassLoader(FMLServerTweaker.java:62) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
-	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:70) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:34) [forge-1.12.2-14.23.5.2860.jar:?]
-[00:18:01] [main/INFO] [FML]: Searching /workspaces/minecraftserver/servidor_minecraft/./mods for mods
-[00:18:01] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from !mixinbooter-10.6.jar
-[00:18:01] [main/ERROR] [FML]: Unable to read the jar file AoA3-3.3.6.jar - ignoring
-java.util.zip.ZipException: error in opening zip file
-	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_452]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:231) ~[?:1.8.0_452]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_452]
-	at java.util.jar.JarFile.<init>(JarFile.java:169) ~[?:1.8.0_452]
-	at java.util.jar.JarFile.<init>(JarFile.java:133) ~[?:1.8.0_452]
-	at net.minecraftforge.fml.relauncher.CoreModManager.discoverCoreMods(CoreModManager.java:366) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraftforge.fml.relauncher.CoreModManager.handleLaunch(CoreModManager.java:265) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupHome(FMLLaunchHandler.java:107) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.setupServer(FMLLaunchHandler.java:87) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraftforge.fml.relauncher.FMLLaunchHandler.configureForServerLaunch(FMLLaunchHandler.java:47) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraftforge.fml.common.launcher.FMLServerTweaker.injectIntoClassLoader(FMLServerTweaker.java:62) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_452]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_452]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_452]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_452]
-	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:70) [forge-1.12.2-14.23.5.2860.jar:?]
-	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:34) [forge-1.12.2-14.23.5.2860.jar:?]
-[00:18:01] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.71_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[00:18:01] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[00:18:01] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
-[00:18:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:18:01] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[00:18:01] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraftserver/servidor_minecraft/./mods/!mixinbooter-10.6.jar Service=LaunchWrapper Env=SERVER
-[00:18:01] [main/WARN] [FML]: The coremod zone.rong.mixinbooter.MixinBooterPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[00:18:01] [main/WARN] [FML]: The coremod MixinBooter (zone.rong.mixinbooter.MixinBooterPlugin) is not signed!
-[00:18:01] [main/INFO] [MixinBooter]: Initializing Mixins...
-[00:18:02] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[00:18:02] [main/INFO] [MixinBooter]: Initializing MixinExtras...
-[00:18:02] [main/INFO] [MixinBooter]: Gathering present mods...
-[00:18:02] [main/INFO] [MixinBooter]: Finished gathering 2 coremods...
-[00:18:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[00:18:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:18:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:18:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:18:03] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[00:18:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:18:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:18:03] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[00:18:03] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@7cab1508
-[00:18:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[00:18:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[00:18:03] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[00:18:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[00:18:03] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[00:18:04] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-rc.1).
-[00:18:04] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[00:18:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[00:18:07] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[00:18:07] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[00:18:07] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[00:18:07] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[00:18:07] [Server thread/INFO] [MixinBooter]: Initializing MixinBooter's Mod Container.
-[00:18:07] [Server thread/INFO] [FML]: Searching /workspaces/minecraftserver/servidor_minecraft/./mods for mods
-[00:18:08] [Server thread/WARN] [FML]: Zip file AoA3-3.3.6.jar failed to read properly, it will be ignored
-java.util.zip.ZipException: error in opening zip file
-	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_452]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:231) ~[?:1.8.0_452]
-	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_452]
-	at java.util.jar.JarFile.<init>(JarFile.java:169) ~[?:1.8.0_452]
-	at java.util.jar.JarFile.<init>(JarFile.java:133) ~[?:1.8.0_452]
-	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:56) [JarDiscoverer.class:?]
-	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
-	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
-	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
-	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
-	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
-	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) [FMLServerHandler.class:?]
-	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) [FMLCommonHandler.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_452]
-[00:18:08] [Server thread/INFO] [FML]: Forge Mod Loader has identified 14 mods to load
-[00:18:08] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[00:18:08] [Server thread/WARN] [FML]: Missing English translation for libraryex: assets/libraryex/lang/en_us.lang
-[00:18:08] [Server thread/WARN] [FML]: Missing English translation for roguelike: assets/roguelike/lang/en_us.lang
-[00:18:08] [Server thread/INFO] [FML]: FML has found a non-mod file AoA3-3.3.6.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[00:18:08] [Server thread/INFO] [FML]: FML has found a non-mod file core-3.6.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[00:18:08] [Server thread/INFO] [FML]: FML has found a non-mod file json-3.6.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[00:18:08] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, mixinbooter, creativecore, jei, libraryex, netherex, playerrevive, roguelike, uteamcore, usefulbackpacks] at CLIENT
-[00:18:08] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, mixinbooter, creativecore, jei, libraryex, netherex, playerrevive, roguelike, uteamcore, usefulbackpacks] at SERVER
-[00:18:09] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[00:18:09] [Server thread/INFO] [FML]: Found 1366 ObjectHolder annotations
-[00:18:09] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[00:18:09] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[00:18:09] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[00:18:09] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[00:18:10] [Server thread/INFO] [FML]: Applying holder lookups
-[00:18:10] [Server thread/INFO] [FML]: Holder lookups applied
-[00:18:10] [Server thread/INFO] [FML]: Applying holder lookups
-[00:18:10] [Server thread/INFO] [FML]: Holder lookups applied
-[00:18:10] [Server thread/INFO] [FML]: Applying holder lookups
-[00:18:10] [Server thread/INFO] [FML]: Holder lookups applied
-[00:18:10] [Server thread/INFO] [FML]: Applying holder lookups
-[00:18:10] [Server thread/INFO] [FML]: Holder lookups applied
-[00:18:10] [Server thread/INFO] [FML]: Injecting itemstacks
-[00:18:10] [Server thread/INFO] [FML]: Itemstack injection complete
-[00:18:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[00:18:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[00:18:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[00:18:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[00:18:10] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[00:18:10] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:18:10] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[00:18:10] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:18:10] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:18:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_fence`, expected `netherex`. This could be a intended override, but in most cases indicates a broken mod.
-[00:18:10] [Server thread/INFO] [FML]: Applying holder lookups
-[00:18:10] [Server thread/INFO] [FML]: Holder lookups applied
-[00:18:10] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[00:18:10] [Forge Version Check/INFO] [forge.VersionCheck]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
-[00:18:11] [Server thread/INFO] [FML]: Injecting itemstacks
-[00:18:11] [Server thread/INFO] [FML]: Itemstack injection complete
-[00:18:11] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 14 mods
-[00:18:11] [Forge Version Check/INFO] [forge.VersionCheck]: [usefulbackpacks] Found status: OUTDATED Target: 1.5.4.85
-[00:18:11] [Forge Version Check/INFO] [forge.VersionCheck]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[00:18:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[00:18:11] [Forge Version Check/INFO] [forge.VersionCheck]: [uteamcore] Found status: UP_TO_DATE Target: null
-[00:18:11] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod oreexcavation which appears to be missing, things may not work well
-[00:18:11] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_magma_block
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_trapdoor
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_observer
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_quartz
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stained_hardened_clay
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_door
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_packed_ice
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_red_sandstone
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:netherrack_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_oak
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_stone_brick
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:inventory_scanner
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_purpur
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:laser
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_chest
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_cobblestone
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:display_case
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keycard_reader
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:alarm
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:lapis_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_acacia_fence
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_fence_gate
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:electrified_iron_fence
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:coal_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_jungle
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:sentry_disguise
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_pink_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_double_crystal_quartz_slab
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_red_nether_brick
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:dirt_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_walls
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_glass_pane
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_pressure_plate
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_netherrack
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_sea_lantern
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:scanner_trapdoor
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_birch
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_nether_brick
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_light_blue_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_nether_wart_block
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:secret_sign_standing
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:secure_redstone_interface
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world coralreef:coral
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dispenser
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_iron_bars
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_sandstone
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:end_stone_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_spruce_fence_gate
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_acacia
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:gold_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_mossy_cobblestone
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_carpet
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_piston_head
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_piston
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:gravel_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:block_pocket_wall
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_end_stone_bricks
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bouncing_betty
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:mine_cut
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_concrete
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_stone
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_cobblestone
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:track_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_snow_block
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_crystal_quartz
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_white_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_crystal_quartz
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_hopper
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:username_logger
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dark_oak_fence_gate
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:motion_activated_light
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:double_crystal_quartz_slab
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:claymore
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_bookshelf
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:ims
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_frame
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_bone_block
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_silver_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_blue_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:crystal_quartz
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:laser_block
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_iron_trapdoor
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_nether_brick
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_crystal_quartz_slab
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stained_glass
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_grass
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:horizontal_reinforced_iron_bars
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_mycelium
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_obsidian
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_hardened_clay
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_yellow_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:floor_ceiling_key_panel
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_green_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_planks
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dark_oak_fence
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bogus_water_flowing
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:stone_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:inventory_scanner_field
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:wall_keycard_lock
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_button
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:redstone_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_furnace
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_sand
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_nether_brick_fence
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_oak_fence_gate
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:secret_sign_wall
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_brown_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_darkoak
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:stairs_crystal_quartz
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:wall_block_change_detector
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:diamond_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bogus_lava_flowing
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_glass_block
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_red_sandstone
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:sonic_security_system
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:cage_trap
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:protecto
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stained_panes
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_logs2
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_brick
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dropper
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:emerald_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:iron_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_grass_path
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:cobblestone_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_acacia_fence_gate
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world coralreef:reef
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_cyan_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:iron_door_reinforced
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:block_change_detector
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:floor_trap
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_birch_fence_gate
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_black_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_logs
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_quartz
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:quartz_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:alarm_lit
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_purpur
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:wall_key_panel
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_glowstone
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:portable_radar
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:rift_stabilizer
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_jungle_fence_gate
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_purple_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_gray_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_compressed_blocks
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_spruce
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:security_camera
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:floor_ceiling_keycard_lock
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dirt
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_brick
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_red_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_magenta_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:trophy_system
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_slabs2
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_lever
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:block_pocket_manager
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_oak_fence
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_double_stone_slabs2
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_soul_sand
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_sandstone
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_metals
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_piston_extension
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_slabs
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_end_rod
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_ladder
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_wood_slabs
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_wooden_pressure_plate
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_cauldron
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_lime_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_prismarine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_double_stone_slabs
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:crystal_quartz_slab
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_sticky_piston
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:retinal_scanner
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_redstone_lamp
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_double_wood_slabs
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_gravel
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_wooden_button
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_wool
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_end_stone
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_ice
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bogus_water
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_jungle_fence
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_clay
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bogus_lava
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:sand_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_birch_fence
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_brick
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:furnace_mine
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:projector
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_cobweb
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:panic_button
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_orange_glazed_terracotta
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:scanner_door
-[00:18:11] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_spruce_fence
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:gloomy_netherrack Expected: 253 Got: 453
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:ichor Expected: 294 Got: 454
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:quartz_fence_gate Expected: 334 Got: 455
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:amethyst_block Expected: 275 Got: 456
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:red_nether_brick_stairs Expected: 304 Got: 457
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:lively_nether_brick_stairs Expected: 306 Got: 458
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:icy_nether_brick_fence Expected: 329 Got: 459
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_brick Expected: 269 Got: 460
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:fiery_nether_brick_stairs Expected: 307 Got: 461
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:worn_iron Expected: 279 Got: 462
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:icy_nether_brick_wall Expected: 319 Got: 463
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_pillar_slab Expected: 303 Got: 464
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:fiery_nether_brick_wall Expected: 318 Got: 465
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:smooth_basalt_stairs Expected: 310 Got: 466
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:red_nether_brick_fence_gate Expected: 336 Got: 467
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:amethyst_ore Expected: 284 Got: 468
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:thornstalk Expected: 286 Got: 469
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:gloomy_nether_brick Expected: 263 Got: 470
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:smooth_basalt Expected: 268 Got: 471
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_brick_stairs Expected: 311 Got: 472
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:lively_netherrack_path Expected: 260 Got: 473
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_brick_wall Expected: 322 Got: 474
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:smooth_basalt_fence Expected: 331 Got: 475
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:icy_netherrack Expected: 257 Got: 476
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:hyphae Expected: 271 Got: 477
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:fiery_nether_brick Expected: 265 Got: 478
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:fiery_nether_brick_slab Expected: 298 Got: 479
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:lively_nether_brick_wall Expected: 317 Got: 480
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_pillar_wall Expected: 323 Got: 481
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:icy_nether_brick Expected: 266 Got: 482
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_pillar_fence Expected: 333 Got: 483
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:nether_brick_wall Expected: 314 Got: 484
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:gloomy_nether_brick_wall Expected: 316 Got: 485
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:blue_fire Expected: 280 Got: 486
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_pillar Expected: 270 Got: 487
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:icy_nether_brick_stairs Expected: 308 Got: 488
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:red_elder_mushroom_cap Expected: 290 Got: 489
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:lively_nether_brick_slab Expected: 297 Got: 490
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_brick_fence_gate Expected: 343 Got: 491
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:fiery_netherrack Expected: 256 Got: 492
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_slab Expected: 300 Got: 493
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_pillar_stairs Expected: 312 Got: 494
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:rime_ore Expected: 285 Got: 495
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:quartz_wall Expected: 313 Got: 496
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:gloomy_nether_brick_slab Expected: 296 Got: 497
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:quartz_ore Expected: 283 Got: 498
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:lively_nether_brick_fence_gate Expected: 338 Got: 499
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:fiery_nether_brick_fence_gate Expected: 339 Got: 500
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_fence Expected: 330 Got: 501
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:fiery_netherrack_path Expected: 261 Got: 502
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:frostburn_ice Expected: 272 Got: 503
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:gloomy_nether_brick_stairs Expected: 305 Got: 504
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:red_nether_brick_wall Expected: 315 Got: 505
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:red_elder_mushroom Expected: 288 Got: 506
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:nether_portal Expected: 281 Got: 507
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:urn_of_sorrow Expected: 282 Got: 508
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:gloomy_nether_brick_fence_gate Expected: 337 Got: 509
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:icy_netherrack_path Expected: 262 Got: 510
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_wall Expected: 320 Got: 511
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:fiery_nether_brick_fence Expected: 328 Got: 512
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_brick_fence Expected: 332 Got: 513
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:smooth_basalt_slab Expected: 301 Got: 514
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:rime_block Expected: 276 Got: 515
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:smooth_basalt_wall Expected: 321 Got: 516
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:enoki_mushroom_cap Expected: 291 Got: 517
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:brown_elder_mushroom Expected: 287 Got: 518
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:gloomy_nether_brick_fence Expected: 326 Got: 519
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:red_nether_brick_slab Expected: 295 Got: 520
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:quartz_fence Expected: 324 Got: 521
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:lively_nether_brick_fence Expected: 327 Got: 522
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:elder_mushroom_stem Expected: 292 Got: 523
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:brown_elder_mushroom_cap Expected: 289 Got: 524
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:bone_sliver Expected: 277 Got: 525
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:netherrack_path Expected: 258 Got: 526
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:enoki_mushroom_stem Expected: 293 Got: 527
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:bone_chunk Expected: 278 Got: 528
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:icy_nether_brick_fence_gate Expected: 340 Got: 529
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:red_nether_brick_fence Expected: 325 Got: 530
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_brick_slab Expected: 302 Got: 531
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:gloomy_netherrack_path Expected: 259 Got: 532
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:lively_nether_brick Expected: 264 Got: 533
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_fence_gate Expected: 341 Got: 534
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_stairs Expected: 309 Got: 535
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:lively_netherrack Expected: 254 Got: 536
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:nether_brick_fence_gate Expected: 335 Got: 537
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt_pillar_fence_gate Expected: 344 Got: 538
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:soul_glass Expected: 273 Got: 539
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:soul_glass_pane Expected: 274 Got: 540
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:icy_nether_brick_slab Expected: 299 Got: 541
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:smooth_basalt_fence_gate Expected: 342 Got: 542
-[00:18:11] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: netherex:basalt Expected: 267 Got: 543
-[00:18:11] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: netherex:wight_hurt Expected: 559 Got: 549
-[00:18:11] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: netherex:wight_death Expected: 560 Got: 550
-[00:18:11] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: netherex:pigtificate_hurt Expected: 550 Got: 580
-[00:18:11] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: netherex:ghast_queen_death Expected: 580 Got: 583
-[00:18:11] [Server thread/WARN] [FML]: Registry SoundEvent: Object did not get ID it asked for. Name: netherex:pigtificate_ambient Expected: 549 Got: 584
-[00:18:11] [Server thread/INFO] [FML]: Applying holder lookups
-[00:18:11] [Server thread/INFO] [FML]: Holder lookups applied
-[00:18:11] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@553dc794)
-[00:18:11] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[00:18:11] [Server thread/INFO] [NetherEx]: Creating biome configs.
-[00:18:12] [Server thread/INFO] [NetherEx]: Reading biome configs.
-[00:18:12] [Server thread/INFO] [NetherEx]: Creating Pigtificate trade configs.
-[00:18:12] [Server thread/INFO] [NetherEx]: Reading Pigtificate trade configs.
-[00:18:12] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@553dc794)
-[00:18:12] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@553dc794)
-[00:18:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[00:18:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 28%
-[00:18:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (2.877s)! For help, type "help" or "?"
-[00:18:14] [Server thread/INFO] [NetherEx]: The Nether has been overridden.
-[00:18:14] [Server thread/INFO] [FML]: Unloading dimension -1
-[00:18:14] [Server thread/INFO] [FML]: Unloading dimension 1
-[00:21:29] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[00:21:29] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 18 mods : minecraft@1.12.2,usefulbackpacks@1.5.1.31,FML@8.0.99.99,uteamcore@2.2.5.375,creativecoredummy@1.0.0,creativecore@1.10.0,aoa3@3.3.6,jei@4.16.1.1013,tlauncher_custom_cape_skin@1.4,lycanitesmobs@2.0.8.10 - MC 1.12.2,forge@14.23.5.2859,controllable@0.11.2,netherex@2.2.5,playerrevive@1.0,mcp@9.42,journeymap@1.12.2-5.7.1p2,libraryex@1.2.2,oreexcavation@1.4.140
-[00:21:29] [Netty Epoll Server IO #2/INFO] [FML]: Attempting connection with missing mods [mixinbooter, roguelike] at CLIENT
-[00:21:31] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[00:21:31] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Xx_maxi777_xX[/127.210.129.216:47801] logged in with entity id 371 at (-253.53247775226822, 64.0, -196.35684625411255)
-[00:21:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX joined the game
-[00:22:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set Xx_maxi777_xX's game mode to Creative Mode
-[00:23:02] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Xx_maxi777_xX lost connection: Disconnected
-[00:23:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX left the game
+[01:12:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[01:12:10] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[01:12:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[01:12:10] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[01:12:10] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_452, running on Linux:amd64:6.8.0-1027-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[01:12:10] [main/INFO] [FML]: Searching /workspaces/minecraftserver/servidor_minecraft/./mods for mods
+[01:12:10] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from !mixinbooter-10.6.jar
+[01:12:10] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.71_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[01:12:10] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[01:12:10] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[01:12:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:12:10] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[01:12:10] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/minecraftserver/servidor_minecraft/./mods/!mixinbooter-10.6.jar Service=LaunchWrapper Env=SERVER
+[01:12:10] [main/WARN] [FML]: The coremod zone.rong.mixinbooter.MixinBooterPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[01:12:10] [main/WARN] [FML]: The coremod MixinBooter (zone.rong.mixinbooter.MixinBooterPlugin) is not signed!
+[01:12:10] [main/INFO] [MixinBooter]: Initializing Mixins...
+[01:12:10] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[01:12:10] [main/INFO] [MixinBooter]: Initializing MixinExtras...
+[01:12:10] [main/INFO] [MixinBooter]: Gathering present mods...
+[01:12:10] [main/INFO] [MixinBooter]: Finished gathering 2 coremods...
+[01:12:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:12:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:12:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:12:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:12:11] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[01:12:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:12:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:12:11] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[01:12:11] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@b8a7e43
+[01:12:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:12:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:12:12] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[01:12:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:12:12] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[01:12:12] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-rc.1).
+[01:12:12] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[01:12:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[01:12:15] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[01:12:15] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[01:12:15] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[01:12:15] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[01:12:15] [Server thread/INFO] [MixinBooter]: Initializing MixinBooter's Mod Container.
+[01:12:15] [Server thread/INFO] [FML]: Searching /workspaces/minecraftserver/servidor_minecraft/./mods for mods
+[01:12:16] [Server thread/INFO] [FML]: Forge Mod Loader has identified 14 mods to load
+[01:12:16] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[01:12:16] [Server thread/WARN] [FML]: Missing English translation for libraryex: assets/libraryex/lang/en_us.lang
+[01:12:16] [Server thread/WARN] [FML]: Missing English translation for roguelike: assets/roguelike/lang/en_us.lang
+[01:12:16] [Server thread/INFO] [FML]: FML has found a non-mod file core-3.6.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[01:12:16] [Server thread/INFO] [FML]: FML has found a non-mod file json-3.6.0.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[01:12:16] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, mixinbooter, creativecore, jei, libraryex, netherex, playerrevive, roguelike, uteamcore, usefulbackpacks] at CLIENT
+[01:12:16] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, mixinbooter, creativecore, jei, libraryex, netherex, playerrevive, roguelike, uteamcore, usefulbackpacks] at SERVER
+[01:12:17] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[01:12:17] [Server thread/INFO] [FML]: Found 1366 ObjectHolder annotations
+[01:12:17] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[01:12:17] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[01:12:17] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[01:12:17] [Forge Version Check/INFO] [forge.VersionCheck]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[01:12:17] [Server thread/INFO] [FML]: Applying holder lookups
+[01:12:17] [Server thread/INFO] [FML]: Holder lookups applied
+[01:12:17] [Server thread/INFO] [FML]: Applying holder lookups
+[01:12:17] [Server thread/INFO] [FML]: Holder lookups applied
+[01:12:18] [Server thread/INFO] [FML]: Applying holder lookups
+[01:12:18] [Server thread/INFO] [FML]: Holder lookups applied
+[01:12:18] [Server thread/INFO] [FML]: Applying holder lookups
+[01:12:18] [Server thread/INFO] [FML]: Holder lookups applied
+[01:12:18] [Server thread/INFO] [FML]: Injecting itemstacks
+[01:12:18] [Server thread/INFO] [FML]: Itemstack injection complete
+[01:12:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[01:12:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[01:12:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[01:12:18] [Forge Version Check/INFO] [forge.VersionCheck]: [uteamcore] Found status: UP_TO_DATE Target: null
+[01:12:18] [Forge Version Check/INFO] [forge.VersionCheck]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
+[01:12:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[01:12:18] [Forge Version Check/INFO] [forge.VersionCheck]: [usefulbackpacks] Found status: OUTDATED Target: 1.5.4.85
+[01:12:18] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01:12:18] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[01:12:18] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:12:18] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[01:12:18] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:12:18] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:12:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_fence`, expected `netherex`. This could be a intended override, but in most cases indicates a broken mod.
+[01:12:18] [Server thread/INFO] [FML]: Applying holder lookups
+[01:12:18] [Server thread/INFO] [FML]: Holder lookups applied
+[01:12:18] [Server thread/INFO] [FML]: Injecting itemstacks
+[01:12:18] [Server thread/INFO] [FML]: Itemstack injection complete
+[01:12:18] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[01:12:18] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 14 mods
+[01:12:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[01:12:18] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_magma_block
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_trapdoor
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_observer
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_quartz
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stained_hardened_clay
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_door
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_packed_ice
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_red_sandstone
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:netherrack_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_oak
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_stone_brick
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:inventory_scanner
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_purpur
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:laser
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_chest
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_cobblestone
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:display_case
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keycard_reader
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:alarm
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:lapis_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_acacia_fence
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_fence_gate
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:electrified_iron_fence
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:coal_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_jungle
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:sentry_disguise
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_pink_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_double_crystal_quartz_slab
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_red_nether_brick
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:dirt_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_walls
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_glass_pane
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_pressure_plate
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_netherrack
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_sea_lantern
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:scanner_trapdoor
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_birch
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_nether_brick
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_light_blue_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_nether_wart_block
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:secret_sign_standing
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:secure_redstone_interface
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world coralreef:coral
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dispenser
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_iron_bars
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_sandstone
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:end_stone_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_spruce_fence_gate
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_acacia
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:gold_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_mossy_cobblestone
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_carpet
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_piston_head
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_piston
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:gravel_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:block_pocket_wall
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_end_stone_bricks
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bouncing_betty
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:mine_cut
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_concrete
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_stone
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_cobblestone
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:track_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_snow_block
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_crystal_quartz
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_white_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_crystal_quartz
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_hopper
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:username_logger
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dark_oak_fence_gate
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:motion_activated_light
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:double_crystal_quartz_slab
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:claymore
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_bookshelf
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:ims
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_frame
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_bone_block
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_silver_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_blue_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:crystal_quartz
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:laser_block
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_iron_trapdoor
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_nether_brick
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_crystal_quartz_slab
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stained_glass
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_grass
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:horizontal_reinforced_iron_bars
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_mycelium
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_obsidian
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_hardened_clay
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_yellow_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:floor_ceiling_key_panel
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_green_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_planks
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dark_oak_fence
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bogus_water_flowing
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:stone_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:inventory_scanner_field
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:wall_keycard_lock
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_button
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:redstone_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad_furnace
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_sand
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_nether_brick_fence
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_oak_fence_gate
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:secret_sign_wall
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_brown_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_darkoak
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:stairs_crystal_quartz
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:wall_block_change_detector
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:diamond_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bogus_lava_flowing
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_glass_block
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_red_sandstone
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:sonic_security_system
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:cage_trap
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:protecto
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stained_panes
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_logs2
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_brick
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dropper
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:emerald_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:iron_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_grass_path
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:cobblestone_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_acacia_fence_gate
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world coralreef:reef
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_cyan_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:iron_door_reinforced
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:block_change_detector
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:floor_trap
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_birch_fence_gate
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_black_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_logs
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_quartz
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:quartz_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:alarm_lit
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_purpur
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:wall_key_panel
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_glowstone
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:portable_radar
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:rift_stabilizer
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_jungle_fence_gate
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_purple_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_gray_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_compressed_blocks
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_spruce
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:security_camera
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:floor_ceiling_keycard_lock
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_dirt
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_brick
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_red_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_magenta_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:keypad
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:trophy_system
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_slabs2
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_lever
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:block_pocket_manager
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_oak_fence
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_double_stone_slabs2
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_soul_sand
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stairs_sandstone
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_metals
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_piston_extension
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_stone_slabs
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_end_rod
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_ladder
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_wood_slabs
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_wooden_pressure_plate
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_cauldron
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_lime_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_prismarine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_double_stone_slabs
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:crystal_quartz_slab
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_sticky_piston
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:retinal_scanner
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_redstone_lamp
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_double_wood_slabs
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_gravel
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_wooden_button
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_wool
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_end_stone
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_ice
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bogus_water
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_jungle_fence
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_clay
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:bogus_lava
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:sand_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_birch_fence
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_brick
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:furnace_mine
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:projector
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_cobweb
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:panic_button
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_orange_glazed_terracotta
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:scanner_door
+[01:12:18] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world securitycraft:reinforced_spruce_fence
+[01:12:19] [Server thread/INFO] [FML]: Applying holder lookups
+[01:12:19] [Server thread/INFO] [FML]: Holder lookups applied
+[01:12:19] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@662ec7ef)
+[01:12:19] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[01:12:19] [Server thread/INFO] [NetherEx]: Reading biome configs.
+[01:12:19] [Server thread/INFO] [NetherEx]: Reading Pigtificate trade configs.
+[01:12:19] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@662ec7ef)
+[01:12:19] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@662ec7ef)
+[01:12:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[01:12:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 54%
+[01:12:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (2.276s)! For help, type "help" or "?"
+[01:12:21] [Server thread/INFO] [NetherEx]: The Nether has been overridden.
+[01:12:21] [Server thread/INFO] [FML]: Unloading dimension -1
+[01:12:21] [Server thread/INFO] [FML]: Unloading dimension 1
+[01:12:58] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[01:12:58] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 16 mods : minecraft@1.12.2,usefulbackpacks@1.5.1.31,FML@8.0.99.99,uteamcore@2.2.5.375,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1013,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2859,controllable@0.11.2,netherex@2.2.5,playerrevive@1.0,mcp@9.42,journeymap@1.12.2-5.7.1p2,libraryex@1.2.2,oreexcavation@1.4.140
+[01:12:58] [Netty Epoll Server IO #2/INFO] [FML]: Attempting connection with missing mods [mixinbooter, roguelike] at CLIENT
+[01:13:00] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[01:13:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Xx_maxi777_xX[/127.210.129.216:45285] logged in with entity id 398 at (-253.53247775226822, 64.0, -196.35684625411255)
+[01:13:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX joined the game
+[01:14:25] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Xx_maxi777_xX lost connection: Disconnected
+[01:14:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX left the game
