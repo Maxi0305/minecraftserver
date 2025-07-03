@@ -657,3 +657,14 @@
 [15:52:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX was slain by Sand Golem
 [15:57:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX is bleeding...
 [15:57:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX was slain by Myrmex Soldier
+[15:59:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX is bleeding...
+[15:59:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Xx_maxi777_xX> putaaaa
+[16:00:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX is bleeding...
+[16:01:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Unknown command. Try /help for a list of commands
+[16:02:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set Xx_maxi777_xX's game mode to Creative Mode
+[16:03:52] [Server thread/INFO] [STDOUT]: [net.tslat.aoa3.item.weapon.gun.BaseGun:doImpactDamage:152]: EntityMyrmexSoldier['Myrmex Soldier'/91024, l='world', x=53.21, y=71.00, z=-452.93]
+[16:03:54] [Server thread/INFO] [STDOUT]: [net.tslat.aoa3.item.weapon.gun.BaseGun:doImpactDamage:152]: EntityMyrmexSoldier['Myrmex Soldier'/91024, l='world', x=46.63, y=69.00, z=-453.28]
+[16:04:09] [Server thread/INFO] [STDOUT]: [net.tslat.aoa3.item.weapon.gun.BaseGun:doImpactDamage:152]: EntityMyrmexSoldier['Myrmex Soldier'/91023, l='world', x=51.51, y=69.00, z=-454.10]
+[16:05:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX has made the advancement [The Desert Swimmers]
+[16:14:44] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Xx_maxi777_xX lost connection: Disconnected
+[16:14:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX left the game
