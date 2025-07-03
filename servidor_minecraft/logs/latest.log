@@ -633,3 +633,19 @@
 [15:35:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX is bleeding...
 [15:35:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX was shot by Skeleton
 [15:37:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX was turned into gorgonzola by a gorgon
+[15:39:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX was turned to stone by a gorgon
+[15:40:07] [Server thread/WARN] [Ice And Fire]: Myrmex picked up resin that wasn't thrown!
+[15:40:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX is bleeding...
+[15:41:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX was slain by Night Watcher
+[15:44:33] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Xx_maxi777_xX lost connection: Disconnected
+[15:44:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX left the game
+[15:45:57] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[15:45:57] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 20 mods : minecraft@1.12.2,usefulbackpacks@1.5.1.31,FML@8.0.99.99,llibrary@1.7.20,uteamcore@2.2.5.375,creativecoredummy@1.0.0,creativecore@1.10.0,aoa3@3.3.6,iceandfire@1.9.1,jei@4.16.1.1013,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2859,controllable@0.11.2,netherex@2.2.5,playerrevive@1.0,mcp@9.42,journeymap@1.12.2-5.7.1p2,betterpingdisplay@1.0,libraryex@1.2.2,oreexcavation@1.4.140
+[15:45:57] [Netty Epoll Server IO #0/INFO] [FML]: Attempting connection with missing mods [mixinbooter, roguelike] at CLIENT
+[15:45:59] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[15:45:59] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Xx_maxi777_xX[/127.210.129.216:34981] logged in with entity id 58910 at (-250.2424933273977, 72.0, -282.3274143501237)
+[15:45:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX joined the game
+[15:46:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX is bleeding...
+[15:46:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX fell from a high place
+[15:47:19] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Xx_maxi777_xX moved wrongly!
+[15:47:25] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity iceandfire:deathworm that already exists with UUID b6b17588-560e-4769-ba82-f4ea13f05043
