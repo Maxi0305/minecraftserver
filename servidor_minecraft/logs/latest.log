@@ -649,3 +649,11 @@
 [15:46:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX fell from a high place
 [15:47:19] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Xx_maxi777_xX moved wrongly!
 [15:47:25] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity iceandfire:deathworm that already exists with UUID b6b17588-560e-4769-ba82-f4ea13f05043
+[15:49:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity iceandfire:deathworm that already exists with UUID b6b17588-560e-4769-ba82-f4ea13f05043
+[15:50:05] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity iceandfire:deathworm that already exists with UUID b6b17588-560e-4769-ba82-f4ea13f05043
+[15:50:13] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity iceandfire:deathworm that already exists with UUID b6b17588-560e-4769-ba82-f4ea13f05043
+[15:50:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity iceandfire:deathworm that already exists with UUID b6b17588-560e-4769-ba82-f4ea13f05043
+[15:52:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX is bleeding...
+[15:52:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX was slain by Sand Golem
+[15:57:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX is bleeding...
+[15:57:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX was slain by Myrmex Soldier
