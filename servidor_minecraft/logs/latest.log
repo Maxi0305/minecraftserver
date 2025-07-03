@@ -668,3 +668,20 @@
 [16:05:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX has made the advancement [The Desert Swimmers]
 [16:14:44] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Xx_maxi777_xX lost connection: Disconnected
 [16:14:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX left the game
+[16:30:18] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[16:30:18] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 20 mods : minecraft@1.12.2,usefulbackpacks@1.5.1.31,FML@8.0.99.99,llibrary@1.7.20,uteamcore@2.2.5.375,creativecoredummy@1.0.0,creativecore@1.10.0,aoa3@3.3.6,iceandfire@1.9.1,jei@4.16.1.1013,tlauncher_custom_cape_skin@1.4,forge@14.23.5.2859,controllable@0.11.2,netherex@2.2.5,playerrevive@1.0,mcp@9.42,journeymap@1.12.2-5.7.1p2,betterpingdisplay@1.0,libraryex@1.2.2,oreexcavation@1.4.140
+[16:30:18] [Netty Epoll Server IO #0/INFO] [FML]: Attempting connection with missing mods [mixinbooter, roguelike] at CLIENT
+[16:30:20] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[16:30:20] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Xx_maxi777_xX[/127.210.129.216:46855] logged in with entity id 117785 at (-130.55176917255278, 69.0, -480.39595546343463)
+[16:30:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX joined the game
+[16:32:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set Xx_maxi777_xX's game mode to Survival Mode
+[16:32:48] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Xx_maxi777_xX lost connection: Disconnected
+[16:32:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Xx_maxi777_xX left the game
+[16:35:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[16:35:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[16:35:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[16:35:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[16:35:30] [Server thread/INFO] [FML]: Unloading dimension 0
+[16:35:30] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[16:35:30] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[16:35:30] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
